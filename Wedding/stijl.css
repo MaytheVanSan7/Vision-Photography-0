@@ -1,0 +1,217 @@
+body {
+  background-color: white;
+}
+
+.vision {
+  font-size: 2rem;
+  font-family: sans-serif;
+  font-variant: small-caps;
+  color: red;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  padding-top: 2rem;
+  display: block;
+  position: absolute;
+  left: 32%;
+  text-decoration: none;
+  z-index: 20;
+}
+
+.index {
+  font-size: 2rem;
+  font-family: 'Zilla Slab', serif;
+  color: red;
+  font-weight: 200;
+  letter-spacing: 1.5px;
+  padding-top: 2rem;
+  display: block;
+  position: absolute;
+  left: 75%;
+  text-decoration: none;
+}
+
+.wedding {
+  height: auto;
+  width: auto;
+  position: relative;
+}
+
+.wedding>img:nth-child(1) {
+  position: absolute;
+  top: 12rem;
+  left: 20%;
+}
+
+.wedding>img:nth-child(2) {
+  position: absolute;
+  top: 104rem;
+  left: 20%;
+}
+
+.wedding>img:nth-child(3) {
+  position: absolute;
+  top: 242rem;
+  left: 20%;
+}
+
+.wedding>img:nth-child(4) {
+  position: absolute;
+  top: 150rem;
+  left: 20%;
+}
+
+.wedding>img:nth-child(5) {
+  position: absolute;
+  top: 58rem;
+  left: 20%;
+}
+
+.wedding>img:nth-child(6) {
+  position: absolute;
+  top: 330rem;
+  left: 0;
+}
+
+.wedding>img:nth-child(7) {
+  position: absolute;
+  top: 196rem;
+  left: 20%;
+}
+
+.wedding>img:nth-child(8) {
+  position: absolute;
+  top: 288rem;
+  left: 0;
+}
+
+#wedding {
+  color: white;
+  font-size: 50px;
+  font-family: helvetica;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: red;
+  -webkit-text-fill-color: transparent;
+  padding-top: 6rem;
+  display: block;
+  position: absolute;
+  left: 20%;
+}
+
+@keyframes stretch {
+  0% {
+    transform: scale(0, 0);
+  }
+
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+@supports (grid-area:auto) {
+  @media (min-width: 1000px) {
+    .onzichtbaar {
+      display: none;
+    }
+
+    body {
+      background-color: white;
+      height: 300rem;
+    }
+
+    .vision {
+      font-size: 2rem;
+      font-family: sans-serif;
+      font-variant: small-caps;
+      color: red;
+      font-weight: bold;
+      letter-spacing: 1.5px;
+      padding-top: 2rem;
+      display: block;
+      position: absolute;
+      left: 43%;
+      text-decoration: none;
+    }
+
+    .index {
+      font-size: 2rem;
+      font-family: 'Zilla Slab', serif;
+      color: red;
+      font-weight: 200;
+      letter-spacing: 1.5px;
+      padding-top: 2rem;
+      display: block;
+      position: absolute;
+      left: 93%;
+      text-decoration: none;
+    }
+
+    .wedding {
+      height: 70rem;
+      width: auto;
+      position: relative;
+    }
+
+    .wedding>img:nth-child(1) {
+      position: absolute;
+      top: 12rem;
+      left: 44rem;
+    }
+
+    .wedding>img:nth-child(2) {
+      position: absolute;
+      top: 53rem;
+      left: 44rem;
+    }
+
+    .wedding>img:nth-child(3) {
+      position: absolute;
+      top: 115.7rem;
+      left: 44rem;
+    }
+
+    .wedding>img:nth-child(4) {
+      position: absolute;
+      top: 158.5rem;
+      left: 44rem;
+    }
+
+    .wedding>img:nth-child(5) {
+      position: absolute;
+      top: 211rem;
+      left: 44rem;
+    }
+
+    .wedding>img:nth-child(6) {
+      position: absolute;
+      top: 254.3rem;
+      left: 44rem;
+    }
+
+    .wedding>img:nth-child(7) {
+      position: absolute;
+      top: 295rem;
+      left: 44rem;
+    }
+
+    .wedding>img:nth-child(8) {
+      position: absolute;
+      top: 115.7rem;
+      left: 73rem;
+    }
+
+    #wedding {
+      color: white;
+      font-size: 150px;
+      font-family: helvetica;
+      -webkit-text-stroke-width: 3px;
+      -webkit-text-stroke-color: red;
+      -webkit-text-fill-color: transparent;
+      padding-top: 30rem;
+      display: block;
+      position: absolute;
+      transform: rotate(-90deg);
+      right: 100rem;
+      top: 60rem;
+      z-index: 3;
+    }
+  }

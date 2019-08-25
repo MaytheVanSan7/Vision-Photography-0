@@ -1,0 +1,216 @@
+body {
+  background-color: white;
+}
+
+.vision {
+  font-size: 2rem;
+  font-family: sans-serif;
+  font-variant: small-caps;
+  color: red;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  padding-top: 2rem;
+  display: block;
+  position: absolute;
+  left: 32%;
+  text-decoration: none;
+  z-index: 20;
+}
+
+.index {
+  font-size: 2rem;
+  font-family: 'Zilla Slab', serif;
+  color: red;
+  font-weight: 200;
+  letter-spacing: 1.5px;
+  padding-top: 2rem;
+  display: block;
+  position: absolute;
+  left: 75%;
+  text-decoration: none;
+}
+
+.nomad {
+  height: auto;
+  width: auto;
+  position: relative;
+}
+
+.nomad>img:nth-child(1) {
+  position:absolute;
+  top: 12rem;
+  left: 0rem;
+}
+
+.nomad>img:nth-child(2) {
+  position: absolute;
+  top: 53rem;
+  left: 0;
+}
+
+.nomad>img:nth-child(3) {
+  position: absolute;
+  top: 101rem;
+  left: 0;
+}
+
+.nomad>img:nth-child(4) {
+  position: absolute;
+  top: 134.2rem;
+  left: 0;
+}
+
+.nomad>img:nth-child(5) {
+  position: absolute;
+  top: 204.7rem;
+  left: 0;
+}
+
+.nomad>img:nth-child(6) {
+  position: absolute;
+  top: 169.5rem;
+  left: 0;
+}
+
+.nomad>img:nth-child(7) {
+  position: absolute;
+  top: 248rem;
+  left: 0;
+}
+
+.nomad>img:nth-child(8) {
+  position: absolute;
+  top: 169.5rem;
+  left: 28rem;
+}
+
+#nomad {
+  color: white;
+  font-size: 50px;
+  font-family: helvetica;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: red;
+  -webkit-text-fill-color: transparent;
+  padding-top: 6rem;
+  display: block;
+  position: absolute;
+  left: 20%;
+}
+
+@keyframes stretch {
+  0% {
+    transform: scale(0, 0);
+  }
+
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+@supports (grid-area:auto) {
+  @media (min-width: 1000px) {
+    .onzichtbaar {
+      display: none;
+    }
+
+    body {
+      background-color: white;
+      height: 300rem;
+    }
+
+    .vision {
+      font-size: 2rem;
+      font-family: sans-serif;
+      font-variant: small-caps;
+      color: red;
+      font-weight: bold;
+      letter-spacing: 1.5px;
+      padding-top: 2rem;
+      display: block;
+      position: absolute;
+      left: 43%;
+      text-decoration: none;
+    }
+
+    .index {
+      font-size: 2rem;
+      font-family: 'Zilla Slab', serif;
+      color: red;
+      font-weight: 200;
+      letter-spacing: 1.5px;
+      padding-top: 2rem;
+      display: block;
+      position: absolute;
+      left: 93%;
+      text-decoration: none;
+    }
+
+    .nomad {
+      height: 70rem;
+      width: auto;
+      position: relative;
+    }
+
+    .nomad>img:nth-child(1) {
+      position: absolute;
+      top: 12rem;
+      left: 44rem;
+    }
+
+    .nomad>img:nth-child(2) {
+      position: absolute;
+      top: 53rem;
+      left: 44rem;
+    }
+
+    .nomad>img:nth-child(3) {
+      position: absolute;
+      top: 101rem;
+      left: 44rem;
+    }
+
+    .nomad>img:nth-child(4) {
+      position: absolute;
+      top: 134.2rem;
+      left: 44rem;
+    }
+
+    .nomad>img:nth-child(5) {
+      position: absolute;
+      top: 204.2rem;
+      left: 44rem;
+    }
+
+    .nomad>img:nth-child(6) {
+      position: absolute;
+      top: 169.3rem;
+      left: 44rem;
+    }
+
+    .nomad>img:nth-child(7) {
+      position: absolute;
+      top: 247.2rem;
+      left: 44rem;
+    }
+
+    .nomad>img:nth-child(8) {
+      position: absolute;
+      top: 169.3rem;
+      left: 72rem;
+    }
+
+    #nomad {
+      color: white;
+      font-size: 150px;
+      font-family: helvetica;
+      -webkit-text-stroke-width: 3px;
+      -webkit-text-stroke-color: red;
+      -webkit-text-fill-color: transparent;
+      padding-top: 30rem;
+      display: block;
+      position: absolute;
+      transform: rotate(-90deg);
+      right: 100rem;
+      top: 80rem;
+    }
+  }
